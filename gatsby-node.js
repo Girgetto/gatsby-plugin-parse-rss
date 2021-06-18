@@ -1,6 +1,16 @@
 const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
+function getNodeContent(node) {
+  if (node.hasAttribute("url")) {
+    return node.getAttribute("url");
+  }
+  if (node.hasAttribute("href")) {
+    return node.getAttribute("href");
+  }
+  return node.textContent;
+}
+
 exports.sourceNodes = (
   { actions: { createNode }, createNodeId, createContentDigest },
   pluginOptions
@@ -18,16 +28,6 @@ exports.sourceNodes = (
       contentType: "text/xml",
       storageQuota: 10000000,
     });
-
-    const getNodeContent = (node) => {
-      if (node.hasAttribute("url")) {
-        return node.getAttribute("url");
-      }
-      if (node.hasAttribute("href")) {
-        return node.getAttribute("href");
-      }
-      return node.textContent;
-    };
 
     const data = element.selectors.reduce((acc, selector) => {
       let HTMLCollection;
