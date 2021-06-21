@@ -1,17 +1,19 @@
 {
   "name": "gatsby-plugin-parse-rss",
-  "description": "",
-  "author": "Girgetto",
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin"
-  ],
-  "peerDependencies": {
-    "gatsby": "^3.0.0-next.0",
-    "jsdom": "^16.6.0"
+  "version": "1.0.0",
+  "description": "Add RSS feed into your Gatsby site.",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Girgetto/gatsby-plugin-parse-rss"
-  }
+    "url": "git+https://github.com/Girgetto/gatsby-plugin-parse-rss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Girgetto/gatsby-plugin-parse-rss/issues"
+  },
+  "homepage": "https://github.com/Girgetto/gatsby-plugin-parse-rss#readme"
 }
