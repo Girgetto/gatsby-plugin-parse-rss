@@ -2,6 +2,15 @@
 
 Add RSS feed into your Gatsby site.
 
+## Install
+
+```
+npm i gatsby-plugin-parse-rss
+```
+or
+```
+yarn add gatsby-plugin-parse-rss
+```
 ## Example
 
 ```js
