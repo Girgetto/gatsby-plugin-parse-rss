@@ -48,6 +48,6 @@ test("should throw errors ", async () => {
   try {
     await sourceNodes(fn, pluginOptions);
   } catch (error) {
-    console.log(error);
+    expect(error).toBe('Need to provide selectors to blog');
   }
 });

@@ -1,15 +1,7 @@
 const fetch = require("node-fetch");
 const { JSDOM } = require("jsdom");
 
-function getNodeContent(node) {
-  if (node.hasAttribute("url")) {
-    return node.getAttribute("url");
-  }
-  if (node.hasAttribute("href")) {
-    return node.getAttribute("href");
-  }
-  return node.textContent;
-}
+const getNodeContent = require("./utils/getNodeContent");
 
 exports.sourceNodes = (
   { actions: { createNode }, createNodeId, createContentDigest },

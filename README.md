@@ -2,7 +2,7 @@
 
 Add RSS feed into your Gatsby site.
 
-## Install
+## Install
 
 ```
 npm i gatsby-plugin-parse-rss
