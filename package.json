@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/Girgetto/gatsby-plugin-parse-rss.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Girgetto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Girgetto/gatsby-plugin-parse-rss/issues"
   },
