@@ -39,6 +39,7 @@ exports.sourceNodes = (
       }, {});
 
       createNode({
+        ...data,
         id: createNodeId(`${name}`),
         parent: null,
         children: [],
