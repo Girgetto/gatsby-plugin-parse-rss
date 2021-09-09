@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-parse-rss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add RSS feed into your Gatsby site.",
   "main": "gatsby-node.js",
   "scripts": {
