@@ -22,5 +22,12 @@
   "dependencies": {
     "jsdom": "^16.6.0",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-transformer-plugin",
+    "mathjax",
+    "markdown"
+  ]
 }
