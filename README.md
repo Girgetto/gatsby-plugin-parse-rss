@@ -4,13 +4,13 @@ Add RSS feed into your Gatsby site.
 
 ## Install
 
-```
+```sh
 npm i gatsby-plugin-parse-rss
 ```
 
 or
 
-```
+```sh
 yarn add gatsby-plugin-parse-rss
 ```
 
