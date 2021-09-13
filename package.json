@@ -27,7 +27,6 @@
     "gatsby",
     "gatsby-plugin",
     "gatsby-transformer-plugin",
-    "mathjax",
     "markdown"
   ]
 }
